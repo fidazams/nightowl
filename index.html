@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NightOwl • Screen Dimmer for Android</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --accent: #FF9F0A;
+            --bg: #050505;
+        }
+        body { 
+            margin: 0; 
+            padding: 0; 
+            background-color: var(--bg); 
+            color: white; 
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            overflow-x: hidden; 
+        }
+        .glow-amber {
+            box-shadow: 0 0 40px -10px rgba(255, 159, 10, 0.3);
+        }
+        .text-gradient {
+            background: linear-gradient(to bottom right, #FFFFFF, #9CA3AF);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .app-gradient {
+            background: linear-gradient(180deg, #1A1A1A 0%, #000000 100%);
+        }
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: #000; }
+        ::-webkit-scrollbar-thumb { background: #333; border-radius: 10px; }
+    </style>
+
+<link rel="stylesheet" href="/index.css">
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.4",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.563.0",
+    "@google/genai": "https://esm.sh/@google/genai@^1.39.0"
+  }
+}
+</script>
+  <script type="module" crossorigin src="/assets/index-gKSoC30h.js"></script>
+</head>
+<body>
+    <div id="root"></div>
+</body>
+</html>
